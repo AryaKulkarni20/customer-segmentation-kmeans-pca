@@ -31,84 +31,20 @@ The dataset contains 200 customer records with 5 columns: `CustomerID`, `Gender`
 
 **Cluster profiles** (average values per cluster):
 
+Cluster 0 — Age: 32.7, Income: $86.5k, Spending Score: 82.1
+  → High income, high spenders (premium/target customers for loyalty programs)
 
-|
- Cluster 
-|
- Avg. Age 
-|
- Avg. Annual Income (k$) 
-|
- Avg. Spending Score 
-|
- Interpretation 
-|
-|
----
-|
----
-|
----
-|
----
-|
----
-|
-|
- 0 
-|
- 32.7 
-|
- 86.5 
-|
- 82.1 
-|
- High income, high spenders — premium/target customers for loyalty programs 
-|
-|
- 1 
-|
- 36.5 
-|
- 89.5 
-|
- 18.0 
-|
- High income, low spenders — price-sensitive despite having money to spend 
-|
-|
- 2 
-|
- 49.8 
-|
- 49.2 
-|
- 40.1 
-|
- Mid income, mid-low spenders — older, moderate/standard segment 
-|
-|
- 3 
-|
- 24.9 
-|
- 39.7 
-|
- 61.2 
-|
- Lower income, high spenders — younger, impulsive spending behavior 
-|
-|
- 4 
-|
- 55.7 
-|
- 53.7 
-|
- 36.8 
-|
- Mid income, lower-mid spenders — oldest, more conservative segment 
-|
+Cluster 1 — Age: 36.5, Income: $89.5k, Spending Score: 18.0
+  → High income, low spenders (price-sensitive despite having money to spend)
+
+Cluster 2 — Age: 49.8, Income: $49.2k, Spending Score: 40.1
+  → Mid income, mid-low spenders (older, moderate/standard segment)
+
+Cluster 3 — Age: 24.9, Income: $39.7k, Spending Score: 61.2
+  → Lower income, high spenders (younger, impulsive spending behavior)
+
+Cluster 4 — Age: 55.7, Income: $53.7k, Spending Score: 36.8
+  → Mid income, lower-mid spenders (oldest, more conservative segment)
 
 ### Observations
 
